@@ -39,6 +39,8 @@ document.getElementsByTagName('form')[0].submit();
 如果哪邊少了什麼，最好還是自己重新填寫過喔ㄏㄏ  
 如果一直失敗還是管幹那邊沒收到，~~那一定是 Google 的問題啦！~~
 
+![demo](demo.gif)
+
 ----
 
 ### 備註
