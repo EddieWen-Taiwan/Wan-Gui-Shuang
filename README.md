@@ -9,7 +9,7 @@ __一秒打開晚歸單，一秒填完。讚！__
 請把第二行第三行後面的 `我的名字/電話是` 換成你的名字/電話
 
 ~~~javascript
-javascript:
+javascript:(function(){
 document.getElementsByName('entry.954463140')[0].value = '我的名字是';
 document.getElementsByName('entry.709241587')[0].value = '我的電話是';
 document.getElementsByName('entry.1858865286')[0].value = "因私人緊急事項 (看病、就醫、因要事而返家)致延誤返回";
@@ -19,6 +19,7 @@ document.getElementsByName('entry.560005917')[0].value = "本人於此聲明所�
 document.getElementsByName('entry.560005917')[0].disabled = false;
 alert(`晚歸填寫成功！\n\n${document.getElementsByName('entry.954463140')[0].value} / ${document.getElementsByName('entry.709241587')[0].value}`);
 document.getElementsByTagName('form')[0].submit();
+}());
 ~~~
 
 然後打開瀏覽器，新增書籤。  
