@@ -12,10 +12,10 @@ __一秒打開晚歸單，一秒填完。讚！__
 javascript:(function(){
 document.getElementsByName('entry.954463140')[0].value = '我的名字是';
 document.getElementsByName('entry.709241587')[0].value = '我的電話是';
-document.getElementsByName('entry.1858865286')[0].value = "因私人緊急事項 (看病、就醫、因要事而返家)致延誤返回";
+document.getElementsByName('entry.1858865286')[0].value = '因私人緊急事項 (看病、就醫、因要事而返家)致延誤返回';
 document.getElementsByName('entry.1858865286')[0].disabled = false;
-document.getElementsByName('entry.1200038893')[0].value = "21:30";
-document.getElementsByName('entry.560005917')[0].value = "本人於此聲明所言屬實，並備相關文件供日後查證";
+document.getElementsByName('entry.1200038893')[0].value = '21:30';
+document.getElementsByName('entry.560005917')[0].value = '本人於此聲明所言屬實，並備相關文件供日後查證';
 document.getElementsByName('entry.560005917')[0].disabled = false;
 alert(`晚歸填寫成功！\n\n${document.getElementsByName('entry.954463140')[0].value} / ${document.getElementsByName('entry.709241587')[0].value}`);
 document.getElementsByTagName('form')[0].submit();
@@ -24,3 +24,18 @@ document.getElementsByTagName('form')[0].submit();
 
 然後打開瀏覽器，新增書籤。  
 名字就隨便吧，然後網址的地方就貼上這一串blablabla就行了。
+
+----
+
+### 備註
+
+還 __不保證__ 所有手機上的瀏覽器都能正常運作喔！！！
+不過在電腦上的瀏覽器應該是沒有問題。
+
+點擊書籤後，預期的結果應該是
+
+> 跳出視窗說「晚歸填寫成功！」，然後是你的名字及電話。  
+> 最後跳頁到 google 的送出畫面
+
+如果哪邊少了什麼，最好還是自己重新填寫過喔ㄏㄏ  
+如果一直失敗還是管幹那邊沒收到，~~那一定是 Google 的問題啦！~~
